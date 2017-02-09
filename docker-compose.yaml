@@ -5,6 +5,7 @@ adop-java-slave:
   net: ${DOCKER_NETWORK_NAME}
   privileged: true
   volumes:
+    - ${JAVA_SLAVE_NAME}_home:/workspace
     - /var/run/docker.sock:/var/run/docker.sock
   environment:
     SLAVE_NAME: ${JAVA_SLAVE_NAME}
