@@ -1,0 +1,1 @@
+# adop-cartridge-java-slave-template
